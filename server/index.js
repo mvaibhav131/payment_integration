@@ -19,7 +19,7 @@ const razorpay = new Razorpay({
 
 // API endpoint to create an order
 app.post('/create-order', async (req, res) => {
-    const { amount } = req.body;  // Amount in the smallest currency unit (e.g., paise)
+    const { amount } = req.body;  // Amount in the smallest currency unit 
 
     try {
         const options = {
